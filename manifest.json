@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Emma auto-close",
+  "description": "Automatically closes DVTV videos with Emma Smetana",
+  "version": "1.0",
+  "author": "Daniel Ptáček",
+  "homepage_url": "https://github.com/ptacekd",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "background": {
+    "scripts": ["main.js"]
+  },
+  "offline_enabled": true
+}
