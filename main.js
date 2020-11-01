@@ -1,5 +1,5 @@
 
-const DVTV_URL = ['https://video.aktualne.cz/dvtv/', 'https://www.dvtv.cz/'];
+const DVTV_URL = ['https://video.aktualne.cz/dvtv/', 'https://www.dvtv.cz/video/'];
 const EMMA_NAME = 'EMMA SMETANA';
 
 
