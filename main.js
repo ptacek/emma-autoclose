@@ -7,7 +7,7 @@ const EMMA_NAME = 'EMMA SMETANA';
  * This listener checks if the loaded page is DVTV; if so then it sends message
  * to content script
  */
-chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {alert(isDvtv(tab));
+chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
   if (changeInfo.status == 'complete' && isDvtv(tab)) {
     chrome.tabs.sendMessage(tabId, {text: 'report_author', tabId: tabId}, closeIfEmma);
   }

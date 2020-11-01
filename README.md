@@ -5,7 +5,7 @@ Chrome extension that automatically closes browser tab with DVTV videos moderate
 This extension is not meant to offend anybody. It is supposed to be something between a joke
 and "hello world" project while learning how to develop chrome extension.
 
-** How to install **
+## How to install
 The extension is not in Chrome store. It has to be installed manually.
 
 1. Download & unzip or clone this repository anywhere you want
